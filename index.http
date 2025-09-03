@@ -1,0 +1,13 @@
+@basepath = https://probable-space-goldfish-pjp9qg4rvq4jhrwj9-3000.app.github.dev/api
+
+
+POST {{basepath}}/users
+
+{
+    "name": "aswini"
+}
+
+###
+GET {{basepath}}/users
+
+
